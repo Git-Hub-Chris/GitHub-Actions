@@ -1,11 +1,3 @@
-<header>
-
-# Hello GitHub Actions
-
-_Create and run a GitHub Actions workflow._
-
-</header>
-
 ## Step 1: Create a workflow file
 
 _Welcome to "Hello GitHub Actions"! :wave:_
@@ -25,9 +17,7 @@ To get you started, we ran an Actions workflow in your new repository that, amon
 ### :keyboard: Activity: Create a workflow file
 
 1. Open a new browser tab, and navigate to this same repository. Then, work on the steps in your second tab while you read the instructions in this tab.
-1. Create a pull request. This will contain all of the changes you'll make throughout this part of the course.
 
-   Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:welcome-workflow`, click **Create pull request**, then click **Create pull request** again.
 
 1. Navigate to the **Code** tab.
 1. From the **main** branch dropdown, click on the **welcome-workflow** branch.
@@ -44,16 +34,3 @@ To get you started, we ran an Actions workflow in your new repository that, amon
      pull-requests: write
    ```
 
-1. To commit your changes, click **Commit changes**.
-1. Type a commit message, select **Commit directly to the welcome-workflow branch** and click **Commit changes**.
-1. Wait about 20 seconds, then refresh this page (the one you're following instructions from). A separate Actions workflow in the repository (not the workflow you created) will run and will automatically replace the contents of this README file with instructions for the next step.
-
-<footer>
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/hello-github-actions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
