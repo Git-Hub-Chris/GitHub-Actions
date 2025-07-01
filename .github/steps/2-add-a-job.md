@@ -1,10 +1,3 @@
-<!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: The previous course had troubleshooting steps for people not using the GitHub UI.
--->
-
 ## Step 2: Add a job to your workflow file
 
 _Nice work! :tada: You added a workflow file!_
@@ -25,8 +18,6 @@ In the following activity, you'll add a "build" job to your workflow. You'll spe
 ### :keyboard: Activity: Add a job to your workflow file
 
 1. In a separate browser tab, make sure you are on the `welcome-workflow` branch and open your `.github/workflows/welcome.yml` file.
-2. Update the contents of the file to:
-   ```yaml
    name: Post welcome comment
    on:
      pull_request:
@@ -38,6 +29,4 @@ In the following activity, you'll add a "build" job to your workflow. You'll spe
        name: Post welcome comment
        runs-on: ubuntu-latest
    ```
-3. Click **Commit changes** in the top right of the workflow editor.
-4. Type a commit message and commit your changes directly to the `welcome-workflow` branch.
-5. Wait about 20 seconds for actions to run, then refresh this page (the one you're following instructions from) and an action will automatically close this step and open the next one.
+
